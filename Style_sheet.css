@@ -1,0 +1,219 @@
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: green;
+}
+
+li a:active:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.Header {
+  background-color: black;
+  color:white;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: red;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-top: 3.5%;
+}
+
+.Header2 {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: red;
+  padding: 0;
+  margin: auto;
+  background-color: black;
+  color:white;
+  text-align: left;
+  display: inline-block;
+  margin-top: 3%;
+  height: fit-content;
+  width: fit-content;
+}
+
+.Header3 {
+border-style: solid;
+border-radius: 10px;
+border-color: red;
+padding: 0%;
+margin: auto;
+background-color: black;
+color:white;
+text-align: left;
+float: right;
+margin-top: 3%;
+height: fit-content;
+width: fit-content;
+}
+
+.image-container {
+  text-align: center;
+  display: inline-block;
+  margin-left: 26%;
+  margin-right: auto;
+}
+
+.logo {
+  height: 18em;
+  width: auto;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: red;
+  display: block;
+  background-color: black;
+  margin-top: 3%;
+}
+
+main {
+  min-height: calc(100vh - 10px - 88px);
+}
+
+#footer {
+  position: relative; 
+  left:0;
+  background-color: rgb(19, 0, 20);
+  color: black;
+  border-style: solid;
+  border-color: red;
+  border-radius: 10px;
+}
+
+.Student {
+height: 300px;
+width: 200px;
+}
+
+.display {
+  float: right;
+}
+
+.Quote {
+  padding: 10px 10px;
+  border-style: solid;
+  border-color: red;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: black;
+  color: white;
+}
+
+.fonts {
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.space {
+  display: inline-block;
+}
+
+.grid-container {
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+}
+
+body {
+  background-color: #000000;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+/*
+Individual student classes set for borders and individual chaning of colors and fonts
+*/
+
+.MW {
+  border-style: solid;
+  border-color: red;
+  border-radius: 10px;
+  width: min-content;
+}
+
+.JM {
+  border-style: solid;
+  border-color: red;
+  border-radius: 10px;
+  width: max-content;
+}
+
+.MH {
+border-style: solid;
+border-color: red;
+border-radius: 10px;
+width: max-content;
+}
+
+.JW {
+border-style: solid;
+border-color: red;
+border-radius: 10px;
+width: max-content;
+}
+
+.DB {
+border-style: solid;
+border-color: red;
+border-radius: 10px;
+width: max-content;
+}
+
+.IK {
+border-style: solid;
+border-color: red;
+border-radius: 10px;
+width: max-content;
+}
+
+.KS {
+border-style: solid;
+border-color: red;
+border-radius: 10px;
+width: max-content;
+}
+
+.JR {
+margin-top: 1%;
+border-style: solid;
+border-color: red;
+border-radius: 10px;
+width: max-content;
+margin-bottom: 1%;
+}
